@@ -1,45 +1,24 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+**Truthful Aggregation of Budget Proposals with Proportionality Guarantees
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
+**A set of Quadratic Programs with Quadratic Constraints to computer worst-case approximation guarantees**
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+We propose a truthful mechanism for the aggregation of budget proposal for $3$ voters. Follow the [companion paper]() for more details.
 
----
+The code in file loss_computation_3.py computes worst-case upper bounds for the $ell_1$ distance between an aggregated division decided by our mechanism and 
+the proportional division of the budget, a metric we call the $\ell_1$-loss.
 
-## Edit a file
+## Usage
 
-You’ll start by editing this README file to learn how to edit a file in Bitbucket.
+Use the following command to compute the maximum loss.
 
-1. Click **Source** on the left side.
-2. Click the README.md link from the list of files.
-3. Click the **Edit** button.
-4. Delete the following text: *Delete this line to make a change to the README from Bitbucket.*
-5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
-6. Go back to the **Source** page.
+python loss_calculation_3.py --help --optimal --zero --nonzero
 
----
+-h, --help: shows this help message
+-o, --optimal: only programs with optimal solutions printed
+-n, --nonzero: computes the upper bound only for the case x_1>0,x_2>0,x_3>0
+-z, --zero: computes the upper bound only for the case x_3=0
 
-## Create a file
+## Dependancies
 
-Next, you’ll add a new file to this repository.
+The calculator uses [Gurobi](www.gurobi.com) mathematical optimization solver. In case use need an academic licence please follow the instructions [here](https://www.gurobi.com/academia/academic-program-and-licenses/).
 
-1. Click the **New file** button at the top of the **Source** page.
-2. Give the file a filename of **contributors.txt**.
-3. Enter your name in the empty file space.
-4. Click **Commit** and then **Commit** again in the dialog.
-5. Go back to the **Source** page.
-
-Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
-
----
-
-## Clone a repository
-
-Use these steps to clone from SourceTree, our client for using the repository command-line free. Cloning allows you to work on your files locally. If you don't yet have SourceTree, [download and install first](https://www.sourcetreeapp.com/). If you prefer to clone from the command line, see [Clone a repository](https://confluence.atlassian.com/x/4whODQ).
-
-1. You’ll see the clone button under the **Source** heading. Click that button.
-2. Now click **Check out in SourceTree**. You may need to create a SourceTree account or log in.
-3. When you see the **Clone New** dialog in SourceTree, update the destination path and name if you’d like to and then click **Clone**.
-4. Open the directory you just created to see your repository’s files.
-
-Now that you're more familiar with your Bitbucket repository, go ahead and add a new file locally. You can [push your change back to Bitbucket with SourceTree](https://confluence.atlassian.com/x/iqyBMg), or you can [add, commit,](https://confluence.atlassian.com/x/8QhODQ) and [push from the command line](https://confluence.atlassian.com/x/NQ0zDQ).
