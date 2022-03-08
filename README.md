@@ -1,6 +1,6 @@
-**Truthful Aggregation of Budget Proposals with Proportionality Guarantees
+# Truthful Aggregation of Budget Proposals with Proportionality Guarantees
 
-**A set of Quadratic Programs with Quadratic Constraints to computer worst-case approximation guarantees**
+## A set of Quadratic Programs with Quadratic Constraints to computer worst-case approximation guarantees
 
 We propose a truthful mechanism for the aggregation of budget proposal for $3$ voters. Follow the [companion paper]() for more details.
 
