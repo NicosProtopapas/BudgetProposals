@@ -14,7 +14,7 @@ Use the following command to compute the maximum loss.
 python loss_calculation_3.py --help --optimal --zero --nonzero
 
 -h, --help: shows this help message
--o, --optimal: only programs with optimal solutions printed
+-o, --optimal: only programs with optimal solutions are printed
 -n, --nonzero: computes the upper bound only for the case x_1>0,x_2>0,x_3>0
 -z, --zero: computes the upper bound only for the case x_3=0
 
