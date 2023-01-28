@@ -4,7 +4,7 @@
 
 We propose a truthful mechanism for the aggregation of budget proposal for $3$ voters. Follow the [companion paper]() for more details.
 
-The code in file loss_computation_3.py computes worst-case upper bounds for the $ell_1$ distance between an aggregated division decided by our mechanism and 
+The code in file loss_computation_3.py computes worst-case upper bounds for the $ell_1$ distance between an aggregated division decided by our mechanism and
 the proportional division of the budget, a metric we call the $\ell_1$-loss.
 
 ## Usage
@@ -20,5 +20,4 @@ python loss_calculation_3.py --help --optimal --zero --nonzero
 
 ## Dependancies
 
-The calculator uses [Gurobi](www.gurobi.com) mathematical optimization solver. In case use need an academic licence please follow the instructions [here](https://www.gurobi.com/academia/academic-program-and-licenses/).
-
+The calculator uses [Gurobi](www.gurobi.com) mathematical optimization solver. If your eligible, you can acquire an academic license, following the t instructions [here](https://www.gurobi.com/academia/academic-program-and-licenses/).
