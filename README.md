@@ -20,4 +20,4 @@ python loss_calculation_3.py --help --optimal --zero --nonzero
 
 ## Dependancies
 
-The calculator uses [Gurobi](www.gurobi.com) mathematical optimization solver. If your eligible, you can acquire an academic license, following the t instructions [here](https://www.gurobi.com/academia/academic-program-and-licenses/).
+The calculator uses [Gurobi](www.gurobi.com) mathematical optimization solver. If your eligible, you can acquire an academic license, following the instructions [here](https://www.gurobi.com/academia/academic-program-and-licenses/).
