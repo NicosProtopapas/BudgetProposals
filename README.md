@@ -2,7 +2,7 @@
 
 ## A set of Quadratic Programs with Quadratic Constraints to computer worst-case approximation guarantees
 
-We propose a truthful mechanism for the aggregation of budget proposal for $3$ voters. Follow the [companion paper]() for more details.
+We propose a truthful mechanism for the aggregation of budget proposal for $3$ voters. Follow the [companion paper](https://arxiv.org/abs/2203.09971) for more details.
 
 The code in file loss_computation_3.py computes worst-case upper bounds for the $ell_1$ distance between an aggregated division decided by our mechanism and
 the proportional division of the budget, a metric we call the $\ell_1$-loss.
